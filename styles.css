@@ -1,0 +1,9 @@
+#button-number {
+    text-align: center;
+    font-size: 200%;
+    font-family: sans-serif;
+}
+
+#instructions {
+    float: right;
+}

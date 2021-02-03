@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Webgazer</title>
+    <script src="https://webgazer.cs.brown.edu/webgazer.js?" defer></script>
+    <script src="scripts.js" defer></script>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="my-code">
+        <div id="button-number">
+            <p id="number">0</p>
+            <button id="i" onclick="increaseDecreaseResetCount('increase')">Increase</button>
+            <button id="r" onclick="increaseDecreaseResetCount('reset')">Reset</button>
+            <button id="d" onclick="increaseDecreaseResetCount('decrease')">Decrease</button>
+        </div>
+        <div id="instructions">
+            <p>If this is your first time on the page,<br>then you need to calibrate it.<br>Click around the page around 9 ~ 15 times, preferably on the corners,<br>the spaces between the corners, and the center</p>
+            <p>If you have already calibrated the website before,<br>then you can have a little cursor with your eyes.<br>If it is not working for you, or it is too inaccurate, you can still use the mouse.</p>
+            <p>In order to increase and decrease the number,<br>move your eyes to the edges.<br>When you move your eyes to the left and hold it for one second,<br>then it will decrease one and vice versa.</p>
+        </div>
+    </div>
+</body>
+</html>
